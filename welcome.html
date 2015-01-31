@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Singapore Kitchen | The number one Kopitan in Singapore</title>
+    <link rel="stylesheet" href="bootstrap.css"/>
+    <link rel="stylesheet" href="Style.css"/>
+</head>
+<body>
+<h1>Singapore kopitiam</h1>
+
+<div class="container">
+    <div class="jumbotron text-center">
+        <div id="Welcome">Welcome to the one and only Singaporean restaurant in Cambridge!</div>
+        <img src="http://upload.wikimedia.org/wikipedia/commons/b/b2/CoffeeShopSG.JPG" width="200px"
+             class="img-circle img-responsive center-block"/>
+
+    </div>
+
+    <div class="row">
+        <div class="col-md-8" id="greeting">
+            <form id="greeting-form" method="post" action="/booking">
+                <h2>Make a booking inquiry</h2>
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" name="fullName"
+                    class="form-control" placeholder="Bob" required>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email" class="form-control" placeholder="contact@bobsdiner.com">
+                </div>
+                <div>
+                    <div class="form-group">
+                        <label>Date of Booking</label>
+                        <input type="datetime-local" name="datetime">
+                    </div>
+
+                </div>
+                <button type="submit" class="btn btn-default">OK</button>
+            </form>
+        </div>
+    </div>
+   <div class="page-header">
+    <div class="row">
+        <h2>Our menu includes:</h2>
+    </div>
+   </div>
+    <div class="page-header">
+        <div class="row">
+            <div class="col-md-2"><img
+                    src="http://www.theguide2surrey.com/getmedia/344e891b-c44c-4f85-a156-84fd444ba54a/Caracoli-Launch-12/?width=624&height=416"
+                    width="150px"/></div>
+            <div class="col-md-10"><h2> Drinks</h2></div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">Kopi</div>
+        <div class="col-md-3">Kopi with milk</div>
+        <div class="col-md-3">Tea</div>
+        <div class="col-md-3">Water</div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3"><h4 class="label label-default">Contains Nuts</h4></div>
+        <div class="col-md-3"><h4 class="label label-info">Contains milk</h4></div>
+        <div class="col-md-3"><h4 class="label label-warning">GBP3.00</h4></div>
+    </div>
+
+    <hr>
+
+    <div class="page-header">
+        <div class="row">
+            <div class="col-md-2"><img src="http://jessicafaissal.com/wp-content/uploads/2013/10/Cover.jpg"
+                                       width="150px"/></div>
+            <div class="col-md-10"><h2>Snacks</h2></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">Singapore Sandwich</div>
+        <div class="col-md-6">Singapore Donut</div>
+    </div>
+
+</div>
+<hr>
+
+<script src="jquery.js"></script>
+<!--<script src="myfrontend.js"></script>
+-->
+</body>
+</html>

@@ -1,0 +1,47 @@
+h1 {
+    color: red;
+    border: 2px #ffffff;
+    font-size: 80px;
+    font-style: oblique;
+    font-family: cursive;
+    text-shadow: 1px 1px black;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+.drinks{
+    color: #3c763d;
+    font-weight: bold;
+}
+
+#first-item
+{
+    border-top: solid grey;
+    font-family: cursive;
+}
+
+p {
+    color: #c7254e;  }
+
+body {
+    background-color: #c7ddef;
+}
+
+.jumbotron {
+    font-family: cursive;
+    padding: 25px;
+    background-color: #31708f;
+    border-color: 1px #000000;
+}
+
+#Welcome {
+    color: #f5f5f5;
+    font-size: 25px;
+    text-shadow: 1px 1px black;
+
+}
+#greeting form {
+`    background-color: white;
+
+
+}
